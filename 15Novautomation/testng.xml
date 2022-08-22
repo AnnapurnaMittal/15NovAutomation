@@ -1,0 +1,16 @@
+<suite name="Suite">
+ <groups>
+ <run>
+ <include name = "smokeTest"/>
+ </run>
+ </groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testNG.AllAnnotationClass"/>
+      <class name="com.testNG.Program3"/>
+      <class name="com.testNG.Program2"/>
+      <class name="com.testNG.Program1"/>
+    </classes>
+  </test> 
+</suite> 
+
